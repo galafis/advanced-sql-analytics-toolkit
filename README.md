@@ -20,6 +20,25 @@
 
 ## English
 
+## 📊 Architecture Diagram
+
+```mermaid
+graph TB
+    A[Data Sources] --> B{SQL Engine}
+    B -->|PostgreSQL| C[Window Functions]
+    B -->|MySQL| D[Analytical Queries]
+    B -->|BigQuery| E[Large-scale Analytics]
+    C --> F[Advanced Analytics]
+    D --> F
+    E --> F
+    F --> G[Business Insights]
+    
+    style A fill:#e1f5ff
+    style G fill:#c8e6c9
+    style B fill:#fff9c4
+```
+
+
 ## 🎯 Features
 
 - **Window Functions**: Window Functions (ROW_NUMBER, RANK, LAG, LEAD)
