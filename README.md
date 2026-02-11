@@ -2,13 +2,6 @@
 
 <div align="center">
 
-![SQL](https://img.shields.io/badge/SQL-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue)
-![MySQL](https://img.shields.io/badge/MySQL-blue)
-![BigQuery](https://img.shields.io/badge/BigQuery-blue)
-![DuckDB](https://img.shields.io/badge/DuckDB-blue)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
 
 **Production-ready SQL analytics with window functions, CTEs, query optimization for PostgreSQL, MySQL, BigQuery**
 
